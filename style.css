@@ -73,6 +73,11 @@ html {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+}
 .header {
     background-color: var(--accent);
 }
@@ -80,6 +85,7 @@ html {
 .header a {
     color: var(--pure-light, #fff);
     text-decoration: none;
+
 }
 .header-nav {
     min-height: 50px;
@@ -94,12 +100,13 @@ html {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 3px;
-
 }
+
 .header-logo img {
     width: 100%;
     height: 100px;
     object-fit: contain;
+
 
 }
 .header-menu {
@@ -109,6 +116,7 @@ html {
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 .header-menu-link {
@@ -118,5 +126,71 @@ html {
     transition: background-color 0.5s;
 }
 .header-menu-link:hover {
-    background-color: var(--accent-light, #4FBFA5)
+    background-color: var(--accent-light, #4FBFA5);
+}
+
+.intro {
+  padding: 60px 0;
+}
+
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.intro-left {
+  width: 30%;
+  
+}
+.intro-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 15%;
+}
+
+.intro-right {
+  width: 60%;
+}
+
+.intro-right h1,
+.intro-right h3 {
+  margin: 0 0 10px;
+}
+.contacts {
+  margin-bottom: 60px;
+}
+
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+.contacts li {
+  text-align: center;
+}
+
+.skills {
+  padding: 20px;
+  color: var(--pure-light);
+  background-color: var(--accent);
+}
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.skills li {
+  padding: 10px 25px;
+  background-color: var(--accent-light);
+  border-radius: 4px;
 }
