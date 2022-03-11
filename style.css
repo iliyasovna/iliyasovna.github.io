@@ -20,7 +20,7 @@ body {
 .container {
     width: 1140px;
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .header a {
     color: #fff;
