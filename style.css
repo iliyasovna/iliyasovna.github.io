@@ -217,3 +217,77 @@ html {
   background-color: var(--accent);
   border-radius: 10px;
 }
+
+.experience {
+  text-align: center;
+}
+
+.experience h4 {
+  font-style: italic;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.experience a {
+  text-decoration: none;
+  color: var(--pure-light);
+  margin: 0 auto;
+  padding: 10px 25px;
+  background-color: var(--accent-light);
+  border-radius: 4px;
+}
+
+.mywork {
+  width: 700px;
+  border-radius: 5px;
+}
+
+.education {
+  color: var(--pure-light);
+  background-color: var(--accent);
+}
+.education ul {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 2;
+}
+.education li {
+  color: var(--pure-light);
+}
+
+.english {
+  text-align: center;
+}
+.english ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--pure-light);
+  background-color: var(--accent);
+  min-height: 100px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--pure-light);
+  border: 1px solid var(--accent-light);
+  border-radius: 2px;
+  margin: 5px;
+  padding: 8px;
+}
+.footer a:hover {
+  border: 1px dotted var(--pure-light);
+  background-color: var(--accent-light);
+}
