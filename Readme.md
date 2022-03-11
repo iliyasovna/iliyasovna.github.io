@@ -1,3 +1,3 @@
 deployed link
 
-https://iliyasovna.github.io/
+https://github.com/iliyasovna/iliyasovna.github.io
