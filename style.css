@@ -12,11 +12,7 @@ body {
   font-family: Roboto, "Open Sans", sans-serif;
   color: var(--accent)
 }
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
+
 .container {
     width: 1140px;
     margin: 0 auto;
